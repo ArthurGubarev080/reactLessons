@@ -83,6 +83,9 @@ class App extends React.Component {
     }
 
     render() {
+        const style = {
+            marginRight: 20,
+        };
         return (
             <div className="app">
                 <h1>{this.state.appTitle}</h1>
